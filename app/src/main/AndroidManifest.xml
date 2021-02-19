@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myappgo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyAppGO">
+        <activity android:name=".ui.home.Task23"></activity>
+        <activity android:name=".ui.home.Task22" />
+        <activity android:name=".ui.home.Task21" />
+        <activity
+            android:name=".ui.home.Task6"
+            android:label="@string/title_activity_task6"
+            android:theme="@style/Theme.MyAppGO.NoActionBar" />
+        <activity
+            android:name=".ui.home.Task5"
+            android:label="@string/title_activity_task5"
+            android:theme="@style/Theme.MyAppGO.NoActionBar" />
+        <activity
+            android:name=".ui.home.Task4"
+            android:label="@string/title_activity_task4"
+            android:theme="@style/Theme.MyAppGO.NoActionBar" />
+        <activity
+            android:name=".ui.home.Task3"
+            android:label="@string/title_activity_task3"
+            android:theme="@style/Theme.MyAppGO.NoActionBar" />
+        <activity
+            android:name=".ui.home.Task2"
+            android:label="@string/title_activity_task2"
+            android:theme="@style/Theme.MyAppGO.NoActionBar" />
+        <activity android:name=".ui.home.Task12" />
+        <activity
+            android:name=".ui.home.Task1"
+            android:label="@string/title_activity_task1"
+            android:theme="@style/Theme.MyAppGO.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyAppGO.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

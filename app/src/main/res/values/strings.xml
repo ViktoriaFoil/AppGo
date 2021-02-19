@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MyAppGO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Have a nice game!</string>
+    <string name="nav_header_subtitle">is_v.v.zubova@mpt.ru</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_gallery">Словарь</string>
+    <string name="menu_slideshow">Правила</string>
+    <string name="menu_joseki">Джосеки</string>
+    <string name="menu_about">О программе</string>
+    <string name="about_text">Го — логическая настольная игра с глубоким стратегическим содержанием, возникшая в Древнем Китае, по разным оценкам, от 2 до 5 тысяч лет назад. До XIX века культивировалась исключительно в Восточной Азии, в XX веке распространилась по всему миру. По общему числу игроков — одна из самых распространённых настольных игр в мире. Входит в число пяти базовых дисциплин Всемирных интеллектуальных игр. </string>
+    <string name="_1">Базовая задача №1</string>
+    <string name="_2">Базовая задача №2</string>
+    <string name="_3">Базовая задача №3</string>
+    <string name="_4">Базовая задача №4</string>
+    <string name="_5">Базовая задача №5</string>
+    <string name="_6">Базовая задача №6</string>
+    <string name="task1task">Ход черных. Убей белую группу.</string>
+    <string name="task2task">Ход черных. Выжить.</string>
+    <string name="title_activity_task1">Task1</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="rules_text">\"ПРАВИЛА ИГРЫ ГО. \" + \"\n\"                 + \"\n\" + \"Правило хода.\"                 + \"\n\" +\"Ход – это постановка камня на одно из пересечений вертикальных и горизонтальных линий. Ходы делаются по очереди! После совершения хода камень запрещено передвигать! \" + \"\n\"                 + \"\n\" +\"2. Правило захвата камней.\"                 + \"\n\" +\"Камни, у которых нет свободных пунктов (дамэ) немедленно удаляются с игрового поля!\"  + \"\n\"                 + \"\n\" +\"3. Правило запрещённых ходов.\"                 + \"\n\" + \"Запрещено делать “самоубийственные” ходы. Запрещено повторять позицию (правило ко).\"  + \"\n\"                 + \"\n\" + \"Цель игры:\"                  + \"\n\" +\"Разыграть  всё  игровое  поле  и  набрать  больше  очков,  чем соперник.  Очки  начисляются  за  каждый  захваченный  камень противника и за каждый окружённый пункт территории.\"</string>
+    <string name="todo1">TODO</string>
+    <string name="title_activity_task2">Task2</string>
+    <string name="title_activity_task3">Task3</string>
+    <string name="title_activity_task4">Task4</string>
+    <string name="title_activity_task5">Task5</string>
+    <string name="title_activity_task6">Task6</string>
+    <string name="todo">TODO</string>
+
+</resources>
