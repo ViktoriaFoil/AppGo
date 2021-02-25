@@ -30,4 +30,47 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
+    <Button
+        android:id="@+id/back"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:onClick="main"
+        android:text="На главную"
+        app:icon="@drawable/abc_vector_test" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="266dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/task4task"
+        app:layout_anchorGravity="bottom|center" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="356dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:contentDescription="@string/todo"
+        app:layout_anchorGravity="center"
+        app:srcCompat="@drawable/task4" />
+
+    <Button
+        android:id="@+id/task41"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="290dp"
+        android:background="@android:color/transparent"
+        android:onClick="task41"
+        android:text="Button" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

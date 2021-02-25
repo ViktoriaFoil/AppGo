@@ -22,6 +22,9 @@
     <string name="task1task">Ход черных. Убей белую группу.</string>
     <string name="task2task">Ход черных. Выжить.</string>
     <string name="task3task">Ход черных. Пленить 3 белых камня.</string>
+    <string name="task4task">Ход черных. Уменьшить глазное пространство белой группе.</string>
+    <string name="task5task">Ход черных. Пленить 3 белых камня.</string>
+    <string name="task6task">Ход черных. Пленить 3 белых камня.</string>
     <string name="decided">Молодец! Задача решена.</string>
     <string name="title_activity_task1">Task1</string>
     <!-- Strings used for fragments for navigation -->
