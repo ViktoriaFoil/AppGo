@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppGO">
-        <activity android:name=".ui.home.Task42"></activity>
+        <activity android:name=".ui.home.Task62"></activity>
+        <activity android:name=".ui.home.Task61" />
+        <activity android:name=".ui.home.Task52" />
+        <activity android:name=".ui.home.Task51" />
+        <activity android:name=".ui.home.Task42" />
         <activity android:name=".ui.home.Task41" />
         <activity android:name=".ui.home.Task32" />
         <activity android:name=".ui.home.Task31" />
