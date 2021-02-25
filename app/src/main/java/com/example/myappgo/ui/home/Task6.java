@@ -1,7 +1,9 @@
 package com.example.myappgo.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.myappgo.MainActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -29,5 +31,14 @@ public class Task6 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    public void main( View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+    public void task61(View view) {
+        Intent intent = new Intent(this, Task61.class);
+        startActivity(intent);
     }
 }

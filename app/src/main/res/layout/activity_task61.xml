@@ -6,4 +6,55 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.Task61">
 
+    <Button
+        android:id="@+id/back"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:onClick="main"
+        android:text="На главную"
+        app:icon="@drawable/abc_vector_test"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/Task61"
+        android:layout_width="376dp"
+        android:layout_height="337dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/task61" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="188dp"
+        android:layout_height="43dp"
+        android:text="@string/task6task"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <Button
+        android:id="@+id/task62"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:onClick="task62"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
