@@ -10,7 +10,10 @@ public class GalleryViewModel extends ViewModel {
 
     public GalleryViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("Выжить группой - это значит построить 2 глаза. Это 2 пространства, куда противник не сможнт поставить свои камни");
+
+        mText = new MutableLiveData<>();
+        mText.setValue("Убить группу соперника - это значит не дать построить глаза.");
     }
 
     public LiveData<String> getText() {

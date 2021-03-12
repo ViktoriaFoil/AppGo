@@ -1,5 +1,6 @@
 package com.example.myappgo.ui.gallery;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -33,24 +34,30 @@ import com.example.myappgo.ui.gallery.GalleryViewModel;
 import com.example.myappgo.ui.home.HomeFragment;
 import com.example.myappgo.ui.home.Task1;
 
-public class GalleryFragment extends Fragment {
+public class GalleryFragment extends AppCompatActivity {
 
 
     private GalleryViewModel galleryViewModel;
 
-    public View onCreateView( @NonNull LayoutInflater inflater,
-                              ViewGroup container, Bundle savedInstanceState ) {
-        galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged( @Nullable String s ) {
-                textView.setText(s);
-            }
-        });
-        return root;
+    @Override
+    public void onCreate( Bundle savedInstanceState ) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.fragment_gallery);
+
+        //public View onCreateView( @NonNull LayoutInflater inflater,
+        //  ViewGroup container, Bundle savedInstanceState ) {
+        // galleryViewModel =
+        // new ViewModelProvider(this).get(GalleryViewModel.class);
+        //View root = inflater.inflate(R.layout.fragment_gallery, container, false);
+        //final TextView textView = root.findViewById(R.id.text_gallery);
+        //galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        // @Override
+        //public void onChanged( @Nullable String s ) {
+        //    textView.setText(s);
+        //}
+        // });
+        //return root;
     }
 
 }
+//}
